@@ -1230,7 +1230,7 @@ async function detectLocation() {
             case 'GB': case 'UK': case 'IM': case 'JE': case 'GG': case 'GI': case 'FK': case 'SH': case 'GS':
                 baseCurrency = 'GBP'; break;
                 // vpn or unknown
-            default: baseCurrency = 'INR'; detectedCountry = 'IN';
+            default: baseCurrency = 'USD'; detectedCountry = 'US';
         }
 
         displayCurrency = baseCurrency;
@@ -1871,3 +1871,4 @@ function updatePlaceholder(platform) {
     </script>
 </body>
 </html>
+
